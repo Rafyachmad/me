@@ -1,0 +1,131 @@
+:root {
+    /* et 01 */
+    --bg-01: #162447;
+    --bg-02: #1f4068;
+    --bg-03: #1b1b2f;
+    --bg-04: #e43f5a;
+    /* et 02 */
+    --bg-05: #142850;
+    --bg-06: #27496d;
+    --bg-07: #0c7b93;
+    --bg-08: #00a8cc;
+    /* et 03 */
+    --bg-09: #1b262c;
+    --bg-10: #0f4c75;
+    --bg-11: #3282b8;
+    --bg-12: #bbe1fa;
+    /* et 04 */
+    --bg-13: #363062;
+    --bg-14: #4d4c7d;
+    --bg-15: #827397;
+    --bg-16: #d8b9c3;
+    /* et 05 */
+    --bg-13: #252525;
+    --bg-14: #ff0000;
+    --bg-15: #af0404;
+    --bg-16: #414141;
+    /* et 06 */
+    --bg-13: #222831;
+    --bg-14: #393e46;
+    --bg-15: #d65a31;
+    --bg-16: #eeeeee;
+    /* et 07 */
+    --bg-13: #022c43;
+    --bg-14: #053f5e;
+    --bg-15: #115173;
+    --bg-16: #ffd700;
+    /* et 08 */
+    --bg-13: #212121;
+    --bg-14: #323232;
+    --bg-15: #od7377;
+    --bg-16: #14ffec;
+}
+
+.bckgr {
+    height: 100vh;
+    background-color: var(--bg-01);
+}
+
+#jdl {
+    color: var(--bg-16);
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#hm {
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+#hm:hover {
+    border-radius: 10px 25px;
+    background-color: var(--bg-03);
+    background-color: #022c43;
+    color: cyan;
+    transition: all .10s ease-in-out;
+}
+
+#ab {
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+#ab:hover {
+    border-radius: 10px 25px;
+    background-color: var(--bg-03);
+    background-color: #022c43;
+    color: cyan;
+    transition: all .10s ease-in-out;
+}
+
+#ig {
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+#ig:hover {
+    border-radius: 10px 25px;
+    background-color: var(--bg-03);
+    background-color: #022c43;
+    color: cyan;
+    transition: all .10s ease-in-out;
+}
+
+/* content */
+
+#cttn {
+    color: #00a8cc;
+}
+
+#inpt {
+    color: #00a8cc;
+}
+
+#opt {
+    color: #00a8cc;
+}
+
+#tbg {
+    color: #00a8cc;
+    background: var(--bg-02);
+}
+
+#sv {
+    color: #00a8cc;
+    background-color: var(--bg-02);
+}
+
+/* About */
+
+#information {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
